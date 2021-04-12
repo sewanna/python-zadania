@@ -17,6 +17,15 @@ def kwadrat(x):
 print("Kwadrat liczby 2 wynosi: " , kwadrat(2) )
 print("Kwadrat liczby 5 wynosi: " , kwadrat(5) )
 
-# napisz funkcje ktora zwraca x^2 dla x w przedziale [1,3] .,.,. 
+# geometry #math #numbers
+# Write a function that takes the base and height of a triangle and return its area.
+
+def triangle(x, y):
+    #liczba1 = x * y / 2
+    #return liczba1 lub
+    return x * y / 2
+print ( triangle(2,6) )
+
+
 
 
