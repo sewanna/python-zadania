@@ -51,10 +51,21 @@ else:
     print("długośc listy D jest inna niż 4 i 5")
 
 
-a = "Kowalski"
-b = a
+# jeśli masz mniej niż 5000-kupujesz szafę, 
+# jeśli więcej niż 8000 jedziesz na wakacje, 
+# jeśli masz gotówkę w przedziale zamknietym 5000 - 8000
 
-if (a) != b :
-    print("Nazwisko nieprawidłowe")
+
+a = 6000
+if a < 5000:
+    print("Kupujesz szafę")
+elif a > 8000:
+        print("Kupujesz telewizor")
 else:
-    print("Nazwisko prawidłowe")
+    print("Jedziesz na wakacje")
+
+
+
+# for 
+
+    a = ["jabłko", "banan", "gruszka", "kiwi"]
